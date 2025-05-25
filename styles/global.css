@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;
+
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    --font-family-asap: "Asap", sans-serif;
+    --font-family-inconsolata: "Inconsolata", sans-serif;
+    --font-family-mavenpro: "Maven Pro", sans-serif;
+    --title-lg: bold 56px/120% var(--font-family-asap);
+    --title-md: bold 24px/120% var(--font-family-asap);
+    --title-sm: bold 16px/120% var(--font-family-asap);
+    --text-subtitle: 20px/120% var(--font-family-inconsolata);
+    --text-md-maven: 16px/140% var(--font-family-mavenpro);
+    --text-sm-maven: 14px/140% var(--font-family-mavenpro);
+}
+
+body {
+    font: var(--title-sm);
+    color: var(--gray-500);
+    background-color: var(--gray-200);
+}
+
+.container {
+    max-width: 1366px;
+    padding-inline: 120px;
+    margin-inline: auto;
+    margin-top: 120px;
+}
+
+.bg-backgroud-intro {
+    background-image: url("../assets/images/Background_Intro.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 750px;
+    object-fit: cover;
+}
+
+.bg-backgroud-contact {
+    background-image: url("../assets/images/Background_Contacts.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 787px;
+    object-fit: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

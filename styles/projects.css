@@ -1,0 +1,49 @@
+#projects {
+    margin-top: 72px;
+    text-align: center;
+}
+
+#projects>h3 {
+    font: var(--text-subtitle);
+    color: var(--color-red);
+    margin-bottom: 8px;
+}
+
+#projects>h2 {
+    font: var(--title-md);
+    margin-bottom: 56px;
+}
+
+#projects .grid {
+    gap: 24px;
+
+    margin-bottom: 144px;
+}
+
+.card {
+    width: 330px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    background-color: var(--gray-300);
+    padding: 12px;
+    border-radius: 12px;
+
+    h3 {
+        font: var(--title-sm);
+        margin-bottom: 8px;
+    }
+
+    p {
+        font: var(--text-sm-maven);
+    }
+}
+
+#projects img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--gray-100);
+}
+
+#services>h2 {
+    font: var(--title-md);
+    margin-bottom: 56px;
+}
+
+#services>h3 {
+    font: var(--text-subtitle);
+    color: var(--color-red);
+    margin-bottom: 8px;
+    padding-top: 88px;
+}
+
+#services .grid {
+    gap: 24px;
+    margin-bottom: 120px;
+}
+
+.card-services {
+    width: 280px;
+    height: 155px;
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+
+    font: var(--title-sm);
+
+    padding: 20px;
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        margin-bottom: 8px;
+    }
+
+    p {
+        font: var(--text-sm-maven);
+    }
+}
